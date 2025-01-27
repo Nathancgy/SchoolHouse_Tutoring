@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Basketball Championship 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="https://raw.githubusercontent.com/your-username/your-repo/main/images/logo.png" 
+                 alt="Tournament Logo" 
+                 class="logo-img"
+                 onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjZiNmIiIHN0cm9rZS13aWR0aD0iMiI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiLz48cGF0aCBkPSJNMTIgMnYyME0yIDEyaDIwIi8+PC9zdmc+'">
+            <span class="logo-text">Elite Basketball Championship</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#teams">Teams</a>
+            <a href="#standings">Standings</a>
+            <a href="#tickets" class="ticket-btn">Buy Tickets</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="animate-title">Elite Basketball Championship 2024</h1>
+            <p class="animate-subtitle">Experience the Ultimate Basketball Showdown</p>
+            <div class="cta-buttons">
+                <button class="primary-btn">Get Tickets</button>
+                <button class="secondary-btn">View Schedule</button>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Live Scores Section -->
+    <section class="live-scores">
+        <h2>Live Scores</h2>
+        <div class="scores-container">
+            <div class="score-card">
+                <div class="team team-1">
+                    <img src="https://raw.githubusercontent.com/your-username/your-repo/main/images/team1.png" 
+                         alt="Thunder" 
+                         class="team-logo"
+                         onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjMmMzZTUwIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjwvc3ZnPg=='">
+                    <span>Thunder</span>
+                    <span class="score">87</span>
+                </div>
+                <div class="vs">VS</div>
+                <div class="team team-2">
+                    <img src="team2.png" alt="Team 2">
+                    <span>Warriors</span>
+                    <span class="score">82</span>
+                </div>
+                <div class="live-indicator">LIVE</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Games -->
+    <section class="featured-games">
+        <h2>Upcoming Matches</h2>
+        <div class="games-grid">
+            <!-- Game Cards -->
+            <div class="game-card">
+                <div class="game-date">June 15, 2024</div>
+                <div class="game-teams">
+                    <div class="team">
+                        <img src="team3.png" alt="Team 3">
+                        <span>Lakers</span>
+                    </div>
+                    <div class="vs-badge">VS</div>
+                    <div class="team">
+                        <img src="team4.png" alt="Team 4">
+                        <span>Celtics</span>
+                    </div>
+                </div>
+                <button class="ticket-button">Book Now</button>
+            </div>
+            <!-- Add more game cards as needed -->
+        </div>
+    </section>
+
+    <!-- Tournament Stats -->
+    <section class="tournament-stats">
+        <div class="stat-card">
+            <i class="fas fa-trophy"></i>
+            <div class="stat-number" data-target="16">0</div>
+            <div class="stat-label">Teams</div>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-basketball-ball"></i>
+            <div class="stat-number" data-target="64">0</div>
+            <div class="stat-label">Games</div>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-users"></i>
+            <div class="stat-number" data-target="192">0</div>
+            <div class="stat-label">Players</div>
+        </div>
+    </section>
+</body>
+</html>
